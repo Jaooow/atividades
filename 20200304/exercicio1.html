@@ -4,38 +4,37 @@
         <meta charset = "utf-8" />
         <title>Exercicio 1</title>
         <script>
-            
-            function verificar(valor, valor1, valor2, valor3)
+            function validar(n,e,s,d)
             {
-               if((valor == "") || (valor1 == "") || (valor2 == "") || (valor3 == ""))
-               {
-                    if(valor == "")
+                mensagem = "";
+                if(n != "" && e != "" && s != "" && d != "")
+                {
+                    mensagem = "Nome: "+n;
+                    mensagem += "\nE-mail: "+e;
+                    mensagem += "\nSexo: "+s;
+                    mensagem += "\nData Nascimento: "+d;
+                }
+                else
+                {
+                    mensagem = "Falta preencher campo(s):";
+                    if(n == "")
                     {
-                        mensagem = "Preencha o Campo '"+valor+"'."
+                        mensagem += "\n -Nome"
                     }
-                    elseif(valor1 == "")
+                    if(e == "")
                     {
-                        mensagem = "Preencha o Campo '"+valor1+"'."
+                        mensagem += "\n -E-mail"
                     }
-                    elseif(valor2 == "")
+                    if(s == "")
                     {
-                        mensagem = "Preencha o Campo '"+valor2+"'."
+                        mensagem += "\n -Sexo"
                     }
-                    elseif(valor3 == "")
+                    if(d == "")
                     {
-                        mensagem = "Preencha o Campo '"+valor3+"'."
+                        mensagem += "\n -Data Nacimento"
                     }
-
-                    alert(mensagem);
-               }
-               else{
-                   escreve_mensagem();
-               }
-            }
-            function escreve_mensagem(valor, valor1, valor2, valor3) 
-            { 
-                    mensagem = "Nome: '"+valor+"'\n E-mail: '"+valor1+"'\n  Sexo: '"+valor2+"'\n  Data de Nascimento: '"+valor3+"'"
-                    alert(mensagem);
+                }
+                alert(mensagem);
             }
         </script>
     </head>
@@ -43,22 +42,18 @@
         <form name = "f1">
             <fieldset>
                 <legend>Informaçoes</legend>
-                <label id = "nome">Nome: </label>
-                <input type = "text" name = "nome" id = "nome" placeholder = "Informe seu Nome" /> <br/><br/>
+                <input type = "text" name = "nome" id = "nome" placeholder = "Nome...." /> <br/><br/>
 
-                <label id = "email">E-mail: </label>
-                <input type = "email" name = "email" id = "nome" placeholder = "Informe seu E-mail" /> <br/><br/>
+                <input type = "email" name = "email" id = "email" placeholder = "E-mail..." /> <br/><br/>
 
                 <label id = "sexo">Sexo: </label>
-                <select name = "sexo">
-                    <option id = "M">Masculino</option>
-                    <option id = "F">Feminino</option>
-                </select> <br/><br/>
+                <input type = "radio" name = "sexo" id = "sexo" value = "M" /> Masculino.
+                <input type = "radio" name = "sexo" id = "sexo" value = "F" /> Feminino. <br/><br/>
 
                 <label id = "data_nasc">Data de Nascimento: </label>
                 <input type = "date" name = "data_nasc" id = "data_nasc" />
 
-                <input type = "button" value = "Exibir" onclick = "verificar(document.f1.value,nome.value,email.value,sexo.value, data_nasc.value);" />
+                <input type = "button" value = "Exibir" onclick = "validar(document.f1.nome.value,document.f1.email.value,document.f1.sexo.value,document.f1.data_nasc.value);" />
             </fieldset>
         </form>
     </body>
