@@ -24,7 +24,8 @@
 		<div class = "container-fluid">
 			<h1>Página com Links das minhas atividades</h1>
 			
-			<a href = "20200304/atividade1.html">Atividade 1</a> <br/>
+			<a href = "20200304/atividade.html">Atividade 1</a> <br/>
+			<a href = "20200812/index.php">Atividade Jquery 1</a> <br/>
       
 		</div>
 	</body>
