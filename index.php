@@ -26,6 +26,8 @@
 			
 			<a href = "20200304/atividade.html">Atividade 1</a> <br/>
 			<a href = "20200812/index.php">Atividade Jquery 1</a> <br/>
+			<a href = "20200819/index.php">Engenharia Reversa 1</a> <br/>
+			<a href = "20200825/index.php">Engenharia Reversa 2</a> <br/>
       
 		</div>
 	</body>
