@@ -28,7 +28,10 @@
 			<a href = "20200812/index.php">Atividade Jquery 1</a> <br/>
 			<a href = "20200819/index.php">Engenharia Reversa 1</a> <br/>
 			<a href = "20200825/index.php">Engenharia Reversa 2</a> <br/>
-      
+			<a href = "20200826/index.php">Engenharia Reversa Em Grupo</a> <br/>
+			<a href = "20200916/form.php">Via CEP - Atividade</a> <br/>
+			<a href = "AtividadeBimes/index.php">Via CEP - Atividade</a> <br/>
+			
 		</div>
 	</body>
 </html>
