@@ -30,7 +30,7 @@
 			<a href = "20200825/index.php">Engenharia Reversa 2</a> <br/>
 			<a href = "20200826/index.php">Engenharia Reversa Em Grupo</a> <br/>
 			<a href = "20200916/form.php">Via CEP - Atividade</a> <br/>
-			<a href = "AtividadeBimes/index.php">Via CEP - Atividade</a> <br/>
+			<a href = "AtividadeBimestral/index.php">Atividade Bimestral</a> <br/>
 			
 		</div>
 	</body>
