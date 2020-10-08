@@ -23,6 +23,7 @@
 	<body>
 		<div class = "container-fluid">
 			<h1>Página com Links das minhas atividades</h1>
+			<hr/>
 			
 			<a href = "20200304/atividade.html">Atividade 1</a> <br/>
 			<a href = "20200812/index.php">Atividade Jquery 1</a> <br/>
@@ -30,6 +31,9 @@
 			<a href = "20200825/index.php">Engenharia Reversa 2</a> <br/>
 			<a href = "20200826/index.php">Engenharia Reversa Em Grupo</a> <br/>
 			<a href = "20200916/form.php">Via CEP - Atividade</a> <br/>
+			<a href = "20200923">Consultas e Filtros 1</a> <br/>
+			<a href = "20200930">Consultas e Filtros 2</a> <br/>
+			
 			<a href = "AtividadeBimestral/index.php">Atividade Bimestral</a> <br/>
 			
 		</div>
