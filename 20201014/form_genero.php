@@ -1,9 +1,9 @@
 <?php
     include "conexao.php";
 
-    $selectFamilia = "SELECT nome, id_familia FROM familia";
+    $resultadoGenero = "SELECT nome, cod_genero FROM banda";
 
-    $resultadoFamilia = mysqli_query($conexao,$selectFamilia);
+    $resultadoGenero = mysqli_query($conexao,$resultadoGenero);
 
 ?>
 <!DOCTYPE html>

@@ -11,7 +11,7 @@
     <body>
         <div class="container-fluid">
             <?php
-            include "menu.inc";
+				include "menu.inc";
             ?>
             <br/>
 
