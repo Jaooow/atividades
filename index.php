@@ -33,6 +33,10 @@
 			<a href = "20200916/form.php">Via CEP - Atividade</a> <br/>
 			<a href = "20200923">Consultas e Filtros 1</a> <br/>
 			<a href = "20200930">Consultas e Filtros 2</a> <br/>
+			<a href = "20201014">Taxonomia</a> <br/>
+			<a href = "20201104">Podcast 1</a> <br/>
+			<a href = "20201116">Podcast 2</a> <br/>
+			<a href = "20210120">Atividade Cookies, MD5, JS</a> <br/>
 			
 			<a href = "AtividadeBimestral/index.php">Atividade Bimestral</a> <br/>
 			
