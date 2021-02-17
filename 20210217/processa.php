@@ -1,5 +1,4 @@
 <?php 
-
     if(!empty($_POST)){
         date_default_timezone_set("America/Sao_Paulo");
         include "inc/cabecalho.inc";
@@ -11,6 +10,7 @@
         $data_assinatura = $_POST["data_assinatura"];
         $senha = $_POST["senha"];
         $senhaN = md5($senha);
+
 
         //echo "CPF: $cpf <br/> Nome: $nome <br/> E-mail: $email <br/> Data-Assinatura: $data_assinatura
         //<br/> Senha: $senha";

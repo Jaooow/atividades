@@ -6,7 +6,7 @@
                     <img src="imagens/avatarH.png" alt="Logo" name = "logo" width="100px" height="100px">
                 </figure>
             </div>
-            <form method = "POST" action = "autentificacao.php">
+            <form method = "POST" action = "autenticacao.php">
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" name = "email" aria-describedby="emailHelp" placeholder="Seu email">
                 </div>

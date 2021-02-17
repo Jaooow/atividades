@@ -1,5 +1,6 @@
 <?php
 
+    session_start();
     include "inc/cabecalho.inc";
     include "inc/script.inc";
     include "conexao.php";
@@ -29,7 +30,7 @@
             $_SESSION["permissao"] = $linha["permissao"];
 
             //header("location: index.php");
-            header("Location: index_assinante.php");
+            header("Location: index.php");
         }
         else {
             //header("location: erro.html");
@@ -62,11 +63,11 @@
             
             $linha = mysqli_fetch_assoc($resultado);
             
-            $_SESSION["cpf"] = $linha["cpf"];
+            $_SESSION["CPF"] = $linha["CPF"];
             $_SESSION["email"] = $email;
 
             //header("location: index.php");
-            header("Location: index_assinante.php");
+            header("Location: index.php");
         }
         else {
             //header("location: erro.html");

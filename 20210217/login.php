@@ -4,6 +4,5 @@
 		include "inc/cabecalho.inc";
 		include "inc/script.inc";
 		include "inc/login.inc";
-
 	?>
 </html>
